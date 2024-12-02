@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cars =['toyota', 'honda', 'mazda', 'mitsubishi', 'tesla', 'lexus']
+        console.log(cars[0]);
+        console.log(cars[cars.length - 1]);
+        
+        cars[6] = 'Ferrari'
+        console.log(cars);
+        
+        for (let index = 0; index < cars.length; index++) {
+            const element = `Car Model: ${cars[index]}`
+            console.log(element);
+            
+            document.write(`Car Model: ${cars[index]} <br/> <br/>`)
+        }
+        
+    </script>
+</body>
+</html>

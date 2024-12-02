@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let grade= prompt('Enter your mark between 0 - 100')
+
+        if (!grade){
+            document.write('Refresh the page to input your mark')
+        }
+        else if (grade >= 0 && grade <= 40){
+            document.write(`Your grade is F`)
+        }
+        else if (grade >= 50 && grade <= 60){
+            document.write(`Your grade is C`)
+        }
+        else if (grade >= 70 && grade <= 100){
+            document.write(`Your grade is A`)
+        }
+        else{
+            document.write('Wrong Input, please refresh the page')
+        };
+    </script>
+</body>
+</html>
